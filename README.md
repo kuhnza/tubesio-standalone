@@ -1,7 +1,7 @@
 tubes.io standalone server
 ==========================
 
-Standalone web server that runs node tube scripts.
+Standalone web server that runs node.js tube scripts. Casper & PhantomJS scripts are not supported at present.
 
 Getting started
 ---------------
@@ -13,15 +13,15 @@ Start the server
 $ npm start
 ```
 
-Your script will then be available to call via HTTP at
+Your script will then be available to GET/POST via HTTP at
 
 http://localhost:3000/tube/[script name without .js extension] 
 
 For example:
 
-GET http://localhost:3000/tube/hello?name=foo
+`GET http://localhost:3000/tube/hello?name=foo`
 
-Returns
+Executes the example script `hello.js` and returns the following
 
 ```json
 {
