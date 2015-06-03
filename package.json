@@ -1,0 +1,16 @@
+{
+  "name": "tubesio-standalone",
+  "version": "1.0.0",
+  "description": "Standalone server for tubes.io scripts",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Dave Kuhn <dave@tubes.io>",
+  "license": "MIT",
+  "dependencies": {
+    "restify": "^3.0.3",
+    "tubesio": "^0.1.17"
+  }
+}
